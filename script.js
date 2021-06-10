@@ -42,4 +42,5 @@ var typed = new Typed(".typing-1", {
   typespeed: 50,
   backspeed: 50,
   loop: true,
+  delay: 300,
 });
