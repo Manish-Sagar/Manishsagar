@@ -22,23 +22,14 @@ $(document).ready(function () {
   });
 });
 var typed = new Typed(".typing", {
-  strings: [
-    "Student",
-    "Web Developer",
-    "Digital  Marketer",
-    "Social Media Handler",
-  ],
-  typespeed: 100,
-  backspeed: 60,
-  loop: 0,
+  strings: ["Student", "Developer", "Marketer"],
+  typespeed: 50,
+  backspeed: 50,
+  loop: true,
+  delay: 500,
 });
 var typed = new Typed(".typing-1", {
-  strings: [
-    "Student",
-    "Web Developer",
-    "Digital  Marketer",
-    "Social Media Handler",
-  ],
+  strings: ["Student", "Developer", "Marketer"],
   typespeed: 50,
   backspeed: 50,
   loop: true,
