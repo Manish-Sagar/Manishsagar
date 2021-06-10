@@ -39,7 +39,7 @@ var typed = new Typed(".typing-1", {
     "Digital  Marketer",
     "Social Media Handler",
   ],
-  typespeed: 100,
-  backspeed: 60,
+  typespeed: 50,
+  backspeed: 50,
   loop: true,
 });
