@@ -25,8 +25,8 @@ var typed = new Typed(".typing", {
   strings: ["Student", "Developer", "Marketer"],
   typespeed: 50,
   backspeed: 50,
-  loop: true,
-  delay: 500,
+  loop:   true,
+  delay:  50 ,
 });
 var typed = new Typed(".typing-1", {
   strings: ["Student", "Developer", "Marketer"],
